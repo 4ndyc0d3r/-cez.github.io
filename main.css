@@ -5,7 +5,11 @@ body {
 	background-position: top, center;
 }
 
-h1, h3 {
+h1 {
+	text-align: top center;
+}
+
+h3 {
 	text-align: center;
 }
 
