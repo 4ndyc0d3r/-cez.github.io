@@ -1,45 +1,30 @@
-
-
 body {
-    margin: 60px auto;
-    width: 70%;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/bf/7f/a1/bf7fa16540d29b0b382d2d4070bfc15a.jpg");
+	background-color: lightblue;
+	background-repeat: no-repeat;
+	background-position: top, center;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+h1, h3 {
+	text-align: center;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+div {
+	text-align: center;
+	text-indent: 2px;
+
 }
-a {
+
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
     text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    display: inline-block;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
+a:hover, a:active {
+    background-color: lightblue;
 }
